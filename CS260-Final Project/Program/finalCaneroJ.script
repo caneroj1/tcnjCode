@@ -1,0 +1,536 @@
+Script started on Thu Dec 13 14:35:18 2012
+bash-3.2$ make
+g++ -c gameDriver.cpp
+g++ -c GameBoard.cpp
+g++ -c CEO.cpp
+g++ -c Developer.cpp
+g++ -c Manager.cpp
+g++ -c Piece.cpp
+g++ -c President.cpp
+g++ -c Supervisor.cpp
+g++ -c TeamLeader.cpp
+g++ gameDriver.o GameBoard.o CEO.o Developer.o Manager.o Piece.o President.o Supervisor.o TeamLeader.o -o FinalExec
+bash-3.2$ ./FinalExec 
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP   gT   gS   gM
+    1   gD   gD   gD   gD   gD   gD   gD   gD
+    2                                        
+    3                                        
+    4                                        
+    5                                        
+    6   yD   yD   yD   yD   yD   yD   yD   yD
+    7   yM   yS   yT   yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+0
+Invalid option
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP   gT   gS   gM
+    1   gD   gD   gD   gD   gD   gD   gD   gD
+    2                                        
+    3                                        
+    4                                        
+    5                                        
+    6   yD   yD   yD   yD   yD   yD   yD   yD
+    7   yM   yS   yT   yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+-1
+Invalid option
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP   gT   gS   gM
+    1   gD   gD   gD   gD   gD   gD   gD   gD
+    2                                        
+    3                                        
+    4                                        
+    5                                        
+    6   yD   yD   yD   yD   yD   yD   yD   yD
+    7   yM   yS   yT   yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+3
+Invalid option
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP   gT   gS   gM
+    1   gD   gD   gD   gD   gD   gD   gD   gD
+    2                                        
+    3                                        
+    4                                        
+    5                                        
+    6   yD   yD   yD   yD   yD   yD   yD   yD
+    7   yM   yS   yT   yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: -1
+That input needs to be in the range of 0 to 8, exclusive.
+Enter row of piece to move: 10
+That input needs to be in the range of 0 to 8, exclusive.
+Enter row of piece to move: 8
+That input needs to be in the range of 0 to 8, exclusive.
+Enter row of piece to move: 1
+Enter column of piece to move: 1
+Enter row of place to move to: 3
+Enter column of place to move to: 1
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP   gT   gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                                        
+    3        gD                              
+    4                                        
+    5                                        
+    6   yD   yD   yD   yD   yD   yD   yD   yD
+    7   yM   yS   yT   yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 6
+Enter column of piece to move: 2
+Enter row of place to move to: 4
+Enter column of place to move to: 2
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP   gT   gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                                        
+    3        gD                              
+    4             yD                         
+    5                                        
+    6   yD   yD        yD   yD   yD   yD   yD
+    7   yM   yS   yT   yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 3
+Enter column of piece to move: 1
+Enter row of place to move to: 4
+Enter column of place to move to: 2
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP   gT   gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                                        
+    3                                        
+    4             gD                         
+    5                                        
+    6   yD   yD        yD   yD   yD   yD   yD
+    7   yM   yS   yT   yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 7
+Enter column of piece to move: 2
+Enter row of place to move to: 5
+Enter column of place to move to: 1
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP   gT   gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                                        
+    3                                        
+    4             gD                         
+    5        yT                              
+    6   yD   yD        yD   yD   yD   yD   yD
+    7   yM   yS        yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 0
+Enter column of piece to move: 5
+Enter row of place to move to: 2
+Enter column of place to move to: 4
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP        gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                       gT               
+    3                                        
+    4             gD                         
+    5        yT                              
+    6   yD   yD        yD   yD   yD   yD   yD
+    7   yM   yS        yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 4
+Enter column of piece to move: 2
+Enter row of place to move to: 5
+Enter column of place to move to: 1
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP        gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                       gT               
+    3                                        
+    4                                        
+    5        gD                              
+    6   yD   yD        yD   yD   yD   yD   yD
+    7   yM   yS        yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 6
+Enter column of piece to move: 0
+Enter row of place to move to: 5
+Enter column of place to move to: 1
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC   gP        gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                       gT               
+    3                                        
+    4                                        
+    5        yD                              
+    6        yD        yD   yD   yD   yD   yD
+    7   yM   yS        yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 0
+Enter column of piece to move: 4
+Enter row of place to move to: 0
+Enter column of place to move to: 5
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC        gP   gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                       gT               
+    3                                        
+    4                                        
+    5        yD                              
+    6        yD        yD   yD   yD   yD   yD
+    7   yM   yS        yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 7
+Enter column of piece to move: 1
+Enter row of place to move to: 5
+Enter column of place to move to: 3
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC        gP   gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                       gT               
+    3                                        
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7   yM             yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 1
+Enter column of piece to move: 2
+Enter row of place to move to: 4
+Enter column of place to move to: 2
+*** Invalid Move ***
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC        gP   gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                       gT               
+    3                                        
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7   yM             yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 1
+Enter column of piece to move: 2
+Enter row of place to move to: 2
+Enter column of place to move to: 1
+*** Invalid Move ***
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC        gP   gS   gM
+    1   gD        gD   gD   gD   gD   gD   gD
+    2                       gT               
+    3                                        
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7   yM             yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 1
+Enter column of piece to move: 2
+Enter row of place to move to: 3
+Enter column of place to move to: 2
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC        gP   gS   gM
+    1   gD             gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7   yM             yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 7
+Enter column of piece to move: 0
+Enter row of place to move to: 1
+Enter column of place to move to: 0
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM   gS   gT   gC        gP   gS   gM
+    1   yM             gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7                  yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 0
+Enter column of piece to move: 1
+Enter row of place to move to: 1
+Enter column of place to move to: 0
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT   gC        gP   gS   gM
+    1   gS             gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7                  yC   yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+tyuy    h 1
+Enter row of piece to move: 7
+Enter column of piece to move: 3
+Enter row of place to move to: 7
+Enter column of place to move to: 0
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT   gC        gP   gS   gM
+    1   gS             gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7   yC                  yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 0
+Enter column of piece to move: 3
+Enter row of place to move to: 2
+Enter column of place to move to: 1
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT             gP   gS   gM
+    1   gS             gD   gD   gD   gD   gD
+    2        gC             gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7   yC                  yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 7
+Enter column of piece to move: 0
+Enter row of place to move to: 1
+Enter column of place to move to: 0
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT             gP   gS   gM
+    1   yC             gD   gD   gD   gD   gD
+    2        gC             gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7                       yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 2
+Enter column of piece to move: 1
+Enter row of place to move to: 1
+Enter column of place to move to: 0
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT             gP   gS   gM
+    1   gC             gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7                       yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 0
+Enter column of piece to move: 5
+Enter row of place to move to: 1
+Enter column of place to move to: 5
+COLOR PROBLEM
+*** Invalid Move ***
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT             gP   gS   gM
+    1   gC             gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7                       yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 5
+Enter column of piece to move: 1
+Enter row of place to move to: 3
+Enter column of place to move to: 1
+*** Invalid Move ***
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT             gP   gS   gM
+    1   gC             gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4                                        
+    5        yD        yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7                       yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 5
+Enter column of piece to move: 1
+Enter row of place to move to: 4
+Enter column of place to move to: 1
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT             gP   gS   gM
+    1   gC             gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4        yD                              
+    5                  yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7                       yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+1
+Enter row of piece to move: 1
+Enter column of piece to move: 0
+Enter row of place to move to: 7
+Enter column of place to move to: 0
+Move Succeeded
+The current board is:
+         0    1    2    3    4    5    6    7
+    0   gM        gT             gP   gS   gM
+    1                  gD   gD   gD   gD   gD
+    2                       gT               
+    3             gD                         
+    4        yD                              
+    5                  yS                    
+    6        yD        yD   yD   yD   yD   yD
+    7   gC                  yP   yT   yS   yM
+
+What do you want to do?
+(1) Make a move
+(2) End the game
+2
+How did the game end?
+(1) Green Won
+(2) Yellow Won
+(3) Green Resigned
+(4) Yellow Resigned
+(5) It's a Draw
+(6) OOPS! Continue Game
+1
+Green gains 10 points
+bash-3.2$ exit
+exit
+
+Script done on Thu Dec 13 14:42:05 2012
