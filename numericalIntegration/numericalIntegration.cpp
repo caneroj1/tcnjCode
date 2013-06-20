@@ -22,7 +22,6 @@ using namespace std;
 int main () {
     
     //numerical integration using the midpoint approximation, trapezoidal rule, or simpson's rule
-    //let f(x) = sqrt(x)
     
     //variables for execution
     
